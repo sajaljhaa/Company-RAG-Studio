@@ -1,0 +1,19 @@
+# Environment variables (Contains sensitive API keys)
+.env
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# ChromaDB local storage
+chroma_db/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Streamlit local configuration
+.streamlit/
