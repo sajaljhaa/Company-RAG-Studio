@@ -38,7 +38,7 @@ graph TD
     Crawler --> Store[(ChromaDB Vector Store per Company)]
     RAG <--> Store
     RAG <--> SearchEngine
-    RAG <--> Mistral[Mistral AI LLM Provider]
+    RAG <--> Mistral[Mis    tral AI LLM Provider]
 ```
 
 ---
